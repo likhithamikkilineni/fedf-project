@@ -1,14 +1,18 @@
-Prescription Management System:
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Domain: Healthcare 
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Abstract: 
+## React Compiler
 
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-The Prescription Management System is a web-based application designed to digitize and simplify the process of managing medical prescriptions. Traditional handwritten prescriptions often lead to errors due to illegibility and improper record handling. This system provides a structured digital solution to improve accuracy and efficiency.
+Note: This will impact Vite dev & build performances.
 
-It allows doctors to create prescriptions using a drug database and includes features like dosage validation, refill requests, pharmacy assignment, and PDF export. Patients can track their medication adherence, view prescription history, and receive real-time notifications.
+## Expanding the ESLint configuration
 
-An admin panel is provided to manage users and system data. The application is built using React.js for the frontend and Node.js with Express.js for the backend, ensuring a scalable and user-friendly experience
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
